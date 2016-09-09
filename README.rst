@@ -44,7 +44,7 @@ See onetooneForm/forms.py, but my experected way is like
 
 .. code:: python
 
-	
+	# I want to use as base class, so other can be inherit from OnetoOneForm
 	class RelToParentFrom(OnetoOneForm):
 		class Meta:
 		    model = RelToParent
