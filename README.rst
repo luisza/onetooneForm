@@ -24,7 +24,7 @@ Basically in models I have model RelToParent with one OneToOne relation call par
 
 ** Admin View **
 
-.. code: python
+.. code:: python
 
 	from django.contrib import admin
 	from onetooneForm.forms import RelToParentFrom
@@ -42,7 +42,7 @@ Basically in models I have model RelToParent with one OneToOne relation call par
 
 See onetooneForm/forms.py, but my experected way is like
 
-.. code: python
+.. code:: python
 
 	
 	class RelToParentFrom(OnetoOneForm):
