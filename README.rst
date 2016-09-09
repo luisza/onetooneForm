@@ -22,7 +22,7 @@ See onetooneForm/models.py.
 
 Basically in models I have model RelToParent with one OneToOne relation call parent to Parent.
 
-** Admin View **
+**Admin View**
 
 .. code:: python
 
@@ -38,7 +38,7 @@ Basically in models I have model RelToParent with one OneToOne relation call par
 
 	admin.site.register(RelToParent, ReltoParentAdmin)
 
-** RelToParentFrom **
+**RelToParentFrom**
 
 See onetooneForm/forms.py, but my experected way is like
 
