@@ -12,6 +12,7 @@ A lot of issues unkown, is not tested, is just and idea with code.
 
 * If I use RelToParentFrom in onetooneForm/forms.py works ok, but I wanted something like in onetooneForm/forms_wanted.py
 * No way to sort fields
+* How can I use formfield_callback? it's necesary
 
 
 
